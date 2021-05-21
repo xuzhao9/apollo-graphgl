@@ -1,0 +1,14 @@
+type User {
+  id: ID!
+  name: String
+}
+
+type Post {
+  id: ID!
+  name: String
+}
+
+type Query {
+  fetchuser(id: ID!): User
+  fetchalluser: [User]
+}
