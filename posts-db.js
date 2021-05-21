@@ -16,4 +16,4 @@ const posts = [
     }
 ];
 
-export default posts;
+exports.postdb = posts;

@@ -1,16 +1,16 @@
 const users = [
     {
         "id": "1",
-        "username": "happy"
+        "name": "happy"
     },
     {
         "id": "2",
-        "username": "alpaca"
+        "name": "alpaca"
     },
     {
         "id": "3",
-        "username": "horses"
+        "name": "horses"
     }
 ];
 
-export default users;
+exports.userdb = users;
